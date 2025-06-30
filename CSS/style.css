@@ -1,0 +1,178 @@
+/*! Age Verification Section  */
+/*#region  */
+.ageIdentify {
+    background-color: black;
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+    z-index: 1;
+}
+
+.ageLimit {
+    width: 100%;
+    /* height: -webkit-fill-available; */
+    color: red;
+    text-align: center;
+    margin-top: 22%;
+}
+
+.yesBtn {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    margin-right: 30px;
+}    
+
+.noBtn {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.notEnough {
+    text-align: center;
+    color: blue;
+    margin-top: 22%;
+}
+
+.retryBtn {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+/* #endregion */
+
+/*! Main Menu */
+/* #region */
+
+.titleOfGame {
+    font-size: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.flowerMenu {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.menuButtons {
+    font-size: 70px;
+    position: absolute;
+}
+
+.startMenu {
+
+}
+
+.tutorialMenu {
+
+}
+
+.creditsMenu {
+
+}
+/* #endregion */
+
+/*! Social Section  */
+/* #region */
+.announcmentMenu {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.toxtillImage {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+/* .toxtillLines {
+
+} */
+
+.crazpiccImage {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+/* .crazpiccLines {
+
+} */
+/* #endregion */
+
+/*! Game Over Section  */
+/* #region */
+.gameOverMenu {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.mannyImage {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+/* #endregion */
+
+/* ! battle Section*/
+/* #region */
+.battleImage {
+    width: 100%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.rock {
+    width: 15%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.paper {
+    width: 15%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.scissors {
+    width: 15%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+
+.alligator {
+    width: 15%;
+    height: -webkit-fill-available;
+    position: fixed;
+}
+/* #endregion */
+
+/*TODO Animation Section  */
+
+/*TODO Music Section  */
+
+@media only screen and (max-width: 678px) {
+
+    .ageLimit {
+        width: 100%;
+        font-size: xxx-large;
+        /* height: -webkit-fill-available; */
+    }
+
+    .notEnough {
+        width: 100%;
+        font-size: xxx-large;
+    }
+}
