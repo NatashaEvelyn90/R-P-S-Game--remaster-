@@ -4,6 +4,7 @@ const yesButton = document.getElementById("yesButton");
 const noButton = document.getElementById("noButton");
 const notCorrectAge = document.getElementById("notEnoughLine");
 const retryButton = document.getElementById("retryButton")
+const gameStartSection = document.getElementById("gameStartMenu");
 
 
 // ! First Stage Section
@@ -16,6 +17,7 @@ window.onload = function() {
 yesButton.addEventListener("click", mainMenu);
 function mainMenu() {
     verifyAgeSection.style.display = 'none';
+    gameStartSection.removeAttribute("hidden");
 }
 
 noButton.addEventListener("click", ohWell);

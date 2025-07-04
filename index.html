@@ -24,15 +24,15 @@
             </div>
         </section>
 
-        <section class="gameStartMenu" id="gameStartMenu">
+        <section class="gameStartMenu" id="gameStartMenu" hidden>
             <img src="./Media/Main Menu.gif" alt="" class="flowerMenu" id="flowerMenu">
-            <div class="MainMenu">
+            <div class="MainMenu d-flex flex-row-reverse flex-wrap justify-content-around">
                 <h1 class="titleOfGame" id="titleOfGame"><strong>R</strong>PS</h1>
-                <ul class="menuButtons" id="menuButtons">
-                    <li class="startMenu" id="startMenu">START</li>
-                    <li class="tutorialMenu" id="tutorialMenu">Tutorial</li>
-                    <li class="creditsMenu" id="creditsMenu">Credits</li>
-                </ul>
+                <div class="menuButtons d-flex flex-column" id="menuButtons">
+                    <button class="startMenu" id="startMenu">START</button>
+                    <button class="tutorialMenu" id="tutorialMenu">Tutorial</button>
+                    <button class="creditsMenu" id="creditsMenu">Credits</button>
+                </div>
             </div>
             <span id="tutorial"></span>
             <span id="credits"></span>

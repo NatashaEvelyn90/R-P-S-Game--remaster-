@@ -52,11 +52,22 @@
 /*! Main Menu */
 /* #region */
 
-.titleOfGame {
-    font-size: 150px;
-    position: absolute;
-    z-index: 1;
+strong {
+    color: #840419;
 }
+
+.titleOfGame {
+    font-size: 400px;
+     font-family: "Kode Mono", monospace;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    z-index: 1;
+    -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(203, 115, 130);
+  color: rgba(255, 192, 203, 0.539);
+}
+
 
 .flowerMenu {
     width: 100%;
@@ -66,19 +77,21 @@
 
 .menuButtons {
     font-size: 70px;
-    position: absolute;
+    position: relative;
+    margin-top: 13%;
+    
 }
 
 .startMenu {
-
+    margin-bottom: 10px;
 }
 
 .tutorialMenu {
-
+    margin-bottom: 10px;
 }
 
 .creditsMenu {
-
+    margin-bottom: 10px;
 }
 /* #endregion */
 
@@ -174,5 +187,16 @@
     .notEnough {
         width: 100%;
         font-size: xxx-large;
+    }
+
+    .titleOfGame {
+        font-size: 150px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menuButtons {
+        font-size: xx-large;
+       margin-top: 0px;
     }
 }
