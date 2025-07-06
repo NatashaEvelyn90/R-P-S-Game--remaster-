@@ -4,8 +4,23 @@ const yesButton = document.getElementById("yesButton");
 const noButton = document.getElementById("noButton");
 const notCorrectAge = document.getElementById("notEnoughLine");
 const retryButton = document.getElementById("retryButton")
+
+//*Main Sections 
 const gameStartSection = document.getElementById("gameStartMenu");
 
+//? Images
+const flowerBg = document.getElementById("flowerMenu");
+const announceBg = document.getElementById("announcementMenu");
+const sparkleBg = document.getElementById("sparkleBg");
+const spaceBg = document.getElementById("battleImage");
+const gameOverBg = document.getElementById("gameOverMenu");
+
+//? Main Game Menu
+const startBtn = document.getElementById("startBtn");
+const tutorialBtn = document.getElementById("tutorialBtn")
+const credisBtn = document.getElementById("creditsBtn")
+const movieBarTop = document.getElementById("movieBarTop");
+const movieBarBottom = document.getElementById("movieBarBottom");
 
 // ! First Stage Section
 // #region
@@ -35,3 +50,12 @@ function restart() {
 }
 // #endregion
 
+//! Clicking "START" Section
+startBtn.addEventListener("click", beginGame);
+function beginGame() {
+    movieBarTop.removeAttribute("hidden");
+    movieBarBottom.removeAttribute("hidden");
+    gameStartSection.classList.add("fadeOut");
+    flowerBg.classList.add("fadeOut");
+    sparkleBg.classList.add("fadeOut");
+}
