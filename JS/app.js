@@ -22,6 +22,11 @@ const credisBtn = document.getElementById("creditsBtn")
 const movieBarTop = document.getElementById("movieBarTop");
 const movieBarBottom = document.getElementById("movieBarBottom");
 
+//? Characters
+const toxtillCharacter = document.getElementById("toxtillImage");
+const crazpiccCharacter = document.getElementById("crazpiccImage");
+const mannyCharacter = document.getElementById("mannyImage"); 
+
 // ! First Stage Section
 // #region
 window.onload = function() {
@@ -58,4 +63,6 @@ function beginGame() {
     gameStartSection.classList.add("fadeOut");
     flowerBg.classList.add("fadeOut");
     sparkleBg.classList.add("fadeOut");
+    toxtillCharacter.removeAttribute("hidden");
+
 }

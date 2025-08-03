@@ -226,6 +226,7 @@ font-family: "Pixelify Sans",sans-serif;
     position: fixed;
 }
 /* #endregion */
+
 /*TODO Animation Section  */
 /* #region */
 @keyframes slideTop {
@@ -243,6 +244,8 @@ font-family: "Pixelify Sans",sans-serif;
 /* #endregion */
 
 /*TODO Music Section  */
+
+
 
 @media only screen and (max-width: 678px) {
     body {
