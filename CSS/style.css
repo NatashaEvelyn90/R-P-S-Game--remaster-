@@ -143,10 +143,12 @@ font-family: "Pixelify Sans",sans-serif;
 /* #region */
 
 .toxtillImage {
-    width: 100%;
+    width: 45%;
     height: -webkit-fill-available;
     position: fixed;
+    animation: announcerSlide 1s ease-in normal forwards;
 }
+
 
 /* .toxtillLines {
 
@@ -241,6 +243,16 @@ font-family: "Pixelify Sans",sans-serif;
   0% {opacity: 1;}
   100% {opacity: 0;}
 }
+
+@keyframes announcerSlide {
+  0% {
+    transform: translateX(-900px);
+}
+
+100% {
+    transform: translateX(0px);
+}
+}
 /* #endregion */
 
 /*TODO Music Section  */
@@ -277,4 +289,12 @@ font-family: "Pixelify Sans",sans-serif;
         font-size: xx-large;
        margin-top: 0px;
     }
+
+    .toxtillImage {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    position: fixed;
+    animation: announcerSlide 1s ease-in normal forwards;
+}
+
 }
