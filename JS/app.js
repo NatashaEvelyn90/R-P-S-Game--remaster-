@@ -27,6 +27,8 @@ const toxtillCharacter = document.getElementById("toxtillImage");
 const crazpiccCharacter = document.getElementById("crazpiccImage");
 const mannyCharacter = document.getElementById("mannyImage"); 
 
+//TODO Music  
+
 // ! First Stage Section
 // #region
 window.onload = function() {
